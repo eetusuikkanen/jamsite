@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit; /* Ensure all elements use border-box model */
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px; /* Padding for navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between; /* Space between title and button */
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.link-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.link-button:hover {
+    background-color: lightgray;
+}
+
+main {
+    margin-top: 60px; /* Prevent content from being hidden behind the navbar */
+    text-align: center;
+    padding: 20px; /* Smaller padding on all sides */
+}
+
+.content {
+    padding: 0 25%; /* 25% padding on left and right */
+}
+
+h2 {
+    margin: 20px 0;
+}
