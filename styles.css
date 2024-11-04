@@ -48,7 +48,7 @@ main {
 }
 
 .content {
-    padding: 0 25%; /* 25% padding on left and right */
+    padding: 20px 25%; /* 25% padding on left and right */
 }
 
 h2 {
